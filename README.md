@@ -11,7 +11,6 @@ devtools::install_github("bio-xtt/sgs_test")
 
 # install from source
 install.packages("/home/bio-xtt/Desktop/sgsload_0.1.0.tar.gz", type=source)
-
 ```
 
 
@@ -42,7 +41,6 @@ result_json <- ExportToSGS(
   assay.type = list("RNA" = "gene"),
   reductions = c("tsne", "umap"),
   marker.files = list("RNA" = marker_file) )
-
 ```
 
 
@@ -87,7 +85,6 @@ result <- ExportSC(
   assay.type = list("RNA" = "gene", "chromvar" = "motif", "peaks" = "peak"),
   reductions = c("lsi", "umap"),
   marker.files = markers)
-
 ```
 
 
